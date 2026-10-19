@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bố cục Responsive với CSS Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Khung chứa chính (Grid Container) -->
+    <div class="grid-container">
+        <!-- 1. Header -->
+        <header class="header">
+            <h1>Trang Web Responsive</h1>
+        </header>
+
+        <!-- 2. Navigation -->
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Dịch vụ</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+
+        <!-- 3. Main Content -->
+        <main class="content">
+            <h2>Nội dung chính</h2>
+            <p>Đây là khu vực hiển thị các bài viết và thông tin chính của trang web. Bố cục này được thiết lập bằng thuộc tính <code>grid-template-areas</code> giúp việc phân vùng và thay đổi giao diện theo từng kích thước màn hình trở nên linh hoạt.</p>
+        </main>
+
+        <!-- 4. Sidebar -->
+        <aside class="sidebar">
+            <h3>Sidebar</h3>
+            <p>Nội dung phụ: Tin tức mới, quảng cáo hoặc liên kết hữu ích.</p>
+        </aside>
+
+        <!-- 5. Footer -->
+        <footer class="footer">
+            <p>&copy; 2026 Website của bạn. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
